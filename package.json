@@ -1,0 +1,25 @@
+{
+  "name": "gm-project",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-turbo": "^0.0.4",
+    "turbo": "^1.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoolLaboratory/gm-project.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/CoolLaboratory/gm-project#readme",
+  "bugs": {
+    "url": "https://github.com/CoolLaboratory/gm-project/issues"
+  }
+}

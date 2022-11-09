@@ -1,0 +1,4 @@
+packages:
+  # - "docs"
+  - "web/apps/*"
+  - "web/packages/*"

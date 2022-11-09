@@ -1,0 +1,6 @@
+{
+  "name": "@gm/shop",
+  "dependencies": {
+    "shared-utils": "workspace:*"
+  }
+}
