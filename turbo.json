@@ -1,10 +1,12 @@
 {
-    "pipeline": {
-      "build": {
-        "outputs": [".next/**"]
-      },
-      "lint": {
-        "outputs": []
-      }
+  "pipeline": {
+    "dev": { "cache": false },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".svelte-kit/**", ".vercel/**"]
+    },
+    "lint": {
+      "outputs": []
     }
   }
+}
